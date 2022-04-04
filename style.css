@@ -1,5 +1,11 @@
 <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-.attribution { 
+/*Set the whole background to black*/
+
+/*Related to the footer credit*/
+.attribution {
+ position: relative;
+  top: 20%;
+  transform: translate(0,90%); 
   font-size: 11px; text-align: center; 
 }
 
@@ -15,7 +21,33 @@
 
 .boxed {
   border: 1px solid black;
+  /*For browsers that don't support gradients.*/
+  background-color: black;
+  background-image: linear-gradient(grey,black);
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translate(0,50%);
+  width: 300px;
+  height: 300px;
 }
+
+.header{
+  color: white;
+}
+
+.text{
+  color: grey;
+  font-size: 15px;
+  font-family: Overpass;
+  font-weight: 400, 700;
+}
+
+.all{
+  background: black;
+  color: white;
+}
+
 
 
 
